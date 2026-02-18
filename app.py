@@ -1,6 +1,6 @@
-import plotly.express as plt
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
 
 #Hence, UI → calls → Engine
 #That is called: Separation of Concerns
@@ -438,6 +438,7 @@ if income>0:
             st.warning("Savings growth is positive but below ideal 20% target.")
         else:
             st.info("Savings growth is on a healthy trajectory.")
+
 
 
 
