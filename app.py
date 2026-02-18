@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+import plotly.express as plt
 import streamlit as st
 import pandas as pd
 
@@ -438,6 +438,7 @@ if income>0:
             st.warning("Savings growth is positive but below ideal 20% target.")
         else:
             st.info("Savings growth is on a healthy trajectory.")
+
 
 
 
